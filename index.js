@@ -37,34 +37,64 @@ const userModel = mongoose.model('userModel', userSchema);
 
 const data = [
     {
-        S_No: 6,
+        S_No: 1,
         Name: 'Meghana',
         Account_Number: '2817405',
         Balance: '70000000'
     },
     {
-        S_No: 7,
+        S_No: 2,
         Name: 'Ashi',
         Account_Number: '2817406',
         Balance: '6000000'
     },
     {
-        S_No: 8,
+        S_No: 3,
         Name: 'mr.raj',
         Account_Number: '2817407',
         Balance: '80000000'
     },
     {
-        S_No: 9,
+        S_No: 4,
         Name: 'mr.chandan',
         Account_Number: '2817408',
         Balance: '120000000'
     },
     {
-        S_No: 10,
+        S_No: 5,
         Name: 'ritik',
         Account_Number: '2817409',
         Balance: '500'
+    },
+    {
+        S_No: 6,
+        Name: 'raj jaiswal',
+        Account_Number: '281745409',
+        Balance: '500664'
+    },
+    {
+        S_No: 7,
+        Name: 'suraj mahapatra',
+        Account_Number: '2818687409',
+        Balance: '5122300'
+    },
+    {
+        S_No: 8,
+        Name: 'harsh',
+        Account_Number: '281547409',
+        Balance: '50790'
+    },
+    {
+        S_No: 9,
+        Name: 'arnabya',
+        Account_Number: '284517409',
+        Balance: '55400'
+    },
+    {
+        S_No: 10,
+        Name: 'ayush',
+        Account_Number: '28174089',
+        Balance: '5000546'
     },
 ]
 
@@ -100,7 +130,7 @@ const addUsers = async () => {
     }
   }
 
-// addUsers();
+addUsers();
   
 
 app.patch('/transfer', async (req, res) => {
