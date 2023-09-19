@@ -81,6 +81,10 @@ app.get('/getusers', async (req, res) => {
     }
 })
 
+app.get('/', async (req, res) => {
+    res.send("<H1>working fine</H1>")
+})
+
 // const addUsers = async () => {
 //    await userModel.insertMany(data);
 //     // await userModel.findByIdAndDelete('6411cff809344bfd6d27a7e3')
