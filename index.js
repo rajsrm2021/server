@@ -96,7 +96,7 @@ const addUsers = async () => {
     }
   }
 
-addUsers();
+// addUsers();
   
 
 app.patch('/transfer', async (req, res) => {
